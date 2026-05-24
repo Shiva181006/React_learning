@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  max-width: 1600px;
+  margin: auto;
 }
 .card{
   height: 500px;

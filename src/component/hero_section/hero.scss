@@ -1,0 +1,60 @@
+$primary-text-color: black;
+
+.main_container1 {
+    background-color: burlywood;
+
+    .container1 {
+        display: flex;
+        margin-top: 5%;
+
+        .box_container {
+            /* display: flex; */
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 40%;
+
+            .review {}
+
+            .content {
+                font-size: 30px;
+            }
+
+            .button {
+                .btn_class {
+
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding: 10px 20px;
+                    outline: none;
+                    border: none;
+                }
+
+                .button1 {
+                    background-color: white;
+                    //   height: 30px;
+                    //   width: 100px;
+                    margin-top: 50px;
+                    margin-right: 40px;
+                    border-radius: 0.5rem;
+                    color: $primary-text-color;
+                    /* box-shadow: none; */
+                    cursor: pointer;
+
+                }
+
+                .button2 {
+                    border: none;
+                    cursor: pointer;
+                    background-color: transparent;
+                    color: $primary-text-color;
+                }
+            }
+
+            .states {}
+        }
+
+        .img_container {
+            margin-right: 20%;
+        }
+    }
+}
