@@ -1,0 +1,38 @@
+.product_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  height: 500px;
+  width: 500px;
+  background-color: aquamarine;
+}
+.card img{
+  height: 300px;
+  width: 500px;
+}
+.price{
+  padding-left: 40px;
+  
+}
+
+.title{
+  display: inline;
+  padding-left: 40px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  display: inline;
+}
+.lorem{
+  padding-left: 40px;
+  font-size: 20px;
+}
+.button{
+  margin-left: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 20px;
+}

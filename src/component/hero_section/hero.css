@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main_container1{
+background-color: burlywood;
+}
+.container1{
+  display: flex;
+  margin-top: 5%;
+  
+  /* height: 100%;
+  width: 100%; */
+}
+.box_container{
+  /* display: flex; */
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 40%;
+
+}
+.content{
+  font-size: 30px;
+}
+.button{
+  /* display: flex; */
+
+} 
+.button .button1{
+  background-color: white;
+  height: 30px;
+  width: 100px;
+  margin-top: 50px;
+  margin-right: 40px;
+  border-radius: 0.5rem;
+  /* box-shadow: none; */
+}
+.button2{
+  border: none;
+  
+}
+.img_container{
+  margin-right: 20%;
+}
