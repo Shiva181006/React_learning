@@ -1,0 +1,44 @@
+.productCard_mainContainer {
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    
+    
+    .img_container 
+      {
+      img{
+        height: 600px;
+        width: 400px;
+        border-radius: 10px;
+      }
+    }
+    
+    .content_conatiner {
+      width: 400px;
+      h1 {
+        font-size: 40px;
+      }
+      h2 {
+        color: red;
+      }
+      p {
+        margin-top: 20px;
+        line-height: 25px;
+        font-size: 20px;
+      }
+      button {
+        margin-top: 20px;
+        padding: 12px 25px;
+        border: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,52 +1,9 @@
+import { data } from "../../data/data";
 import "./product.css";
 import ProductCard from "./product_card";
 
 const Product = () => {
-  const data = [
-    {
-      title: "Happy birds",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "200",
-    },
-    {
-      title: "Owl",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "150",
-    },
-    {
-      title: "Pegin",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "300",
-    },
-    {
-      title: "Parrot",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "180",
-    },
 
-    {
-      title: "Crow",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "40",
-    },
-    {
-      title: "Peacock",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      image:
-        "https://cdn.pixabay.com/photo/2015/05/27/19/14/bird-787103_960_720.jpg",
-      price: "280",
-    },
-  ];
   console.log(data);
 
   return (
