@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router";
 import { Home } from "./pages/home/home";
 import { About } from "./pages/about/about";
 import { Contact } from "./pages/contact/contact";
-import ProductCardDetails from "./component/product/product_card_details";
+import ProductCardDetails from "./component/product_card_details/product_card_details";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="/productCardDetails" element={<ProductCardDetails/>}/>
+        <Route path="/productCardDetails/:id" element={<ProductCardDetails/>}/>
       </Routes>
 
       {/* Footer  */}

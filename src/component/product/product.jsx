@@ -11,13 +11,14 @@ const Product = () => {
       <div className="product_main_container">
         <div className="product_container">
           {data.map((item, index) => {
-            console.log(item, "indivisual items");
+            
             return (
               <ProductCard
                 key={index + 1}
                 image={item.image}
                 title={item.title}
                 price={item.price}
+                id={item.id}
                 description={item.description}
               />
             );
