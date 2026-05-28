@@ -6,8 +6,6 @@ const ProductCardDetails = () => {
   
   const { id } = useParams(); //Fetch id from the url(Route)
   const product = getProductById(Number(id));
-  
-console.log('Test');
 
   return (
     <>
