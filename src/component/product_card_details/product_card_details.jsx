@@ -4,7 +4,6 @@ import "./product_card_details.scss";
 
 const ProductCardDetails = () => {
   
-  
   const { id } = useParams(); //Fetch id from the url(Route)
   const product = getProductById(Number(id));
   
