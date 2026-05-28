@@ -1,31 +1,26 @@
 import { useParams } from "react-router";
-import { card_detail_data } from "../../data/data";
+import { getProductById } from "../../data/data";
 import "./product_card_details.scss";
 
-import Card_details from "./card_details";
-
 const ProductCardDetails = () => {
-  // const product = getProductById(Number(3));
-  // console.log("product", product);
-  console.log("details", card_detail_data);
-
-  const { id } = useParams();
-
-  console.log(id);
-
-  const singleProduct = card_detail_data.find((item) => item.id === Number(id));
+  
+  const { id } = useParams(); //Fetch id from the url(Route)
+  const product = getProductById(Number(id));
+  
 
   return (
     <>
       <div className="productCard_mainContainer">
         <div className="container">
-          <Card_details
-            image={singleProduct.image}
-            title={singleProduct.title}
-            price={singleProduct.price}
-            id={singleProduct.id}
-            description={singleProduct.description}
-          />
+          <div className="img_container">
+            <img src={product[0].inner_image[1]} />
+          </div>
+          <div className="content_conatiner">
+            <h1>{product[0].title}</h1>
+            <h2>${product[0].price}</h2>
+            <p>{product[0].description}</p>
+            <button>Buy Now</button>
+          </div>
         </div>
       </div>
     </>

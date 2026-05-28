@@ -8,11 +8,13 @@ export const Navbar = () => {
           <nav>
             <div className="header">
               <div className="container_logo">
+                <NavLink to ="/">
                 <img
                   src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-wolf-logo-png-image_2306634.jpg"
-                  alt="Logo"
+                  alt="Logo" 
                 />{" "}
                 <span>logo</span>
+                </NavLink>
               </div>
               <div className="link_content">
                 <ul className="li_tag">
