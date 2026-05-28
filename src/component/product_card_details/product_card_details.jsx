@@ -7,6 +7,7 @@ const ProductCardDetails = () => {
   const { id } = useParams(); //Fetch id from the url(Route)
   const product = getProductById(Number(id));
 
+  
   return (
     <>
       <div className="productCard_mainContainer">
